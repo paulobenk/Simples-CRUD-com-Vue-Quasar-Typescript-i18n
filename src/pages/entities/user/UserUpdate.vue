@@ -8,10 +8,10 @@
           <p class="text-h6">{{ $t('user.title.detail') }}</p>
           <q-input filled v-model="user.id" :label="$t('user.id')" />
           <q-input filled v-model="user.name" :label="$t('user.name')" />
-          <q-input filled v-model="user.phone" :label="$t('user.username')" />
+          <q-input filled v-model="user.username" :label="$t('user.username')" />
           <q-input filled v-model="user.email" :label="$t('user.email')" />
           <q-input filled v-model="user.phone" :label="$t('user.phone')" />
-          <q-input filled v-model="user.phone" :label="$t('user.website')" />
+          <q-input filled v-model="user.website" :label="$t('user.website')" />
         </div>
 
         <div class="col-12 q-mt-md">

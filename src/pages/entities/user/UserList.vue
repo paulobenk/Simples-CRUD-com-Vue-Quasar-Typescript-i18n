@@ -96,7 +96,7 @@
       const { t } = useI18n();
 
       const header = [t('user.id'), t('user.name'), t('user.username'), t('user.email'), t('user.phone'), t('user.website')];
-      const rows = ['id', 'name', 'email', 'username', 'phone', 'website'];
+      const rows = ['id', 'name', 'username', 'email', 'phone', 'website'];
       const columns = [
         { align: 'left', sortable: false, name: '', field: '', label: t('global.action.actions') },
         { align: 'left', sortable: true, name: rows[0], field: rows[0], label: header[0] },
